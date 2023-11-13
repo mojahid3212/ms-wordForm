@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a48a021ab7.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+ 
+</style>
+
+<body>
+    <h1 class="text-center text-6xl"><span class="text-green-500">ms word</span> text field demo</h1>
+    <section class="w-3/4 mx-auto bg-green-200 p-4 mt-6">
+        <div class="flex justify-between ">
+            <div>
+                <button id="btn-bold"><i class="fa-solid fa-bold"></i></button>
+                <button  id="btn-italic" class="mx-2"><i class="fa-solid fa-italic"></i></button>
+                <button id="text-underline"><i class="fa-solid fa-underline"></i></button>
+            </div>
+            <div>
+                <button id="btn-text-left"> <i class="fa-solid fa-align-left"></i></button>
+                <button id="btn-text-center" class="mx-2"><i class="fa-solid fa-align-center"></i></button>
+                <button id="text-right"><i class="fa-solid fa-align-right"></i></button>
+                <button id="text-justify" class="ml-2"><i class="fa-solid fa-align-justify"></i></button>
+            </div>
+            <div>
+                <input type="number" name="" id="font-size" placeholder="font size">
+                
+                <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+            </div>
+        </div>
+        <hr class="bg-green-800 my-4">
+        <textarea  name="" id="input-field" cols="100" rows="5"></textarea>
+    </section>
+    <script src="js/dom.js"></script>
+</body>
+
+</html>
